@@ -15,6 +15,7 @@ namespace Test.StepDefinitions
         {
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl("http://horse-dev.azurewebsites.net/Account/Login?ReturnUrl=%2f");
+
             IWebElement userName = driver.FindElement(By.Id("UserName"));
             userName.SendKeys("hari");
             IWebElement password = driver.FindElement(By.Id("Password"));

@@ -15,6 +15,7 @@ namespace Test.tests
         IWebDriver driver;
         
         [SetUp]
+
         public void SetUp()
         {
         driver = new ChromeDriver();
@@ -32,7 +33,7 @@ namespace Test.tests
         }
 
         [Test]
-
+       
         public void TimeCreateTest()
         {
             // go to navigation bar
@@ -56,7 +57,7 @@ namespace Test.tests
 
 
         [Test]
-
+       
         public void TimeEditTest()
         {
             // go to navigation bar
